@@ -1,3 +1,58 @@
-head {
-    background-color: aquamarine;
+/* Gaya umum */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
 }
+
+/* Judul utama */
+h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* Subjudul */
+h2 {
+    color: #34495e;
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+h3 {
+    color: #16a085;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+/* Paragraf */
+p {
+    color: #555;
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Efek hover untuk judul */
+h1:hover, h2:hover, h3:hover {
+    color: #e74c3c;
+    transition: 0.3s;
+}
+
+/* Menambahkan border pada teks */
+h1, h2, h3 {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.8em;
+   
